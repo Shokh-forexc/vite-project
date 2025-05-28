@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(90deg, #ffcc00, #ff6600);    .BigDiv{
+        width: 100%;
+        height: 45vh;
+    }.buttondiv{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         }
+    button{
+        width: 70px;
+        height: 70px;
+        margin-left: 1%;
+        border-radius: 50%;
+        font-size: 40px;
+        border: none;
+        background-color: #fff;
+        color: #ffa200;
+    }
+}

@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about-container {
+    width: 100%;
+    height: 170vh;
+    .about{
+        width: 100%;
+        height: auto;
+        display: flex;
+        position: absolute;
+        h1{
+            color: #ffa200;
+            font-weight: bolder;
+            margin-left: 2%;
+            margin-top: 2%;
+            /*position: absolute;*/
+        }
+        button{
+            border: none;
+            background-color: #fff;
+            margin-left: 2%;
+            margin-top: 1.5%;
+            font-size: 25px;
+            color: green;
+        }
+    }
+    .halfDiv{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: wrap;
+        .imgDiv{
+            position: absolute;
+            width: 50%;
+            height: 100%;
+            margin-left: 2%;
+            margin-top: 7%;
+            border-radius: 20px;
+            border: 5px solid #ffa200;
+            img{
+                border-radius: 20px;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .alldiv{
+            width: 50%;
+            margin-left: 50%;
+            height: 104vh;
+            margin-top: 7%;
+            display: block !important;
+            .items{
+                width: 90%;
+                height: 40%;
+                margin-left: 7%;
+                margin-top: 5%;
+                border: 5px solid #ffa200;
+                border-radius: 20px;
+                h1{
+                    color: #ffa200;
+                    margin-left: 5%;
+                }h3{
+                    color: green;
+                    margin-left: 5%;
+                    font-weight: bolder;
+                   }
+                .check{
+                    color: green;
+                    width: 7%;
+                    height: 6vh;
+                    font-size: 25px;
+                    background-color: #fff;
+                    border-radius: 15px;
+                    border: 5px solid green;
+                    margin-left: 5%;
+                }
+                img{
+                    width: 30%;
+                    margin-left: 2.2%;
+                    margin-top: 5%;
+                }
+            }
+        }
+    }
+    .endDiv{
+        width: 95%;
+        height: 25%;
+        margin-top: 2%;
+        margin-left: 2.5%;
+        border-radius: 20px;
+        border: 5px solid #ffa200;
+        h1{
+            color: #ffa200;
+            font-weight: bolder;
+            margin-left: 5%;
+        }
+            img{
+                width: 19%;
+                height: 80%;
+                margin-left: 0.8%;
+                border-radius: 20px;
+            }
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    .about-container{
+        width: 100%;
+        height: 450vh;
+        .about{
+            width: 100% !important;
+            height: auto;
+            display: block;
+            button{
+                margin-left: 20% !important;
+            }
+        }
+        .halfDiv{
+            width: 100%;
+            height: auto;
+            display: block;
+            .imgDiv{
+                width: 90%;
+                margin-left: 7%;
+                margin-top: 25%;
+                height: 50vh;
+            }
+            .alldiv{
+                width: 100%;
+                display: block;
+                margin-top: 125%;
+                margin-left: 0%;
+                position: absolute;
+            }
+        }
+        .endDiv{
+            width: 90%;
+            height: auto;
+            margin-left: 7% !important;
+            margin-top: 370%;
+            position: absolute;
+            display: block !important;
+            img{
+                width: 90%;
+                margin-bottom: 5%;
+                margin-left: 5%;
+            }
+        }
+        .iitems{
+            display: block;
+            height: auto !important;
+            img{
+                width: 90% !important;
+                margin-left: 5% !important;
+            }
+        }
+    }
+    .check{
+        width: 13% !important;
+    }
+}
+
